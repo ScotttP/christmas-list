@@ -2,7 +2,14 @@ import "./App.css";
 import SortContainer from "./sortContainer";
 
 function App() {
-	return <SortContainer />;
+	return (
+		<div>
+			<header id="header">
+				<b>Scott's Gift List</b>
+			</header>
+			<SortContainer />
+		</div>
+	);
 }
 
 export default App;

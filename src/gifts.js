@@ -18,7 +18,7 @@ export default function GiftsCard(props) {
 				target="_blank"
 				rel="noreferrer"
 			>
-				Link to Gift
+				<b>Link to Gift</b>
 			</a>
 		</div>
 	);
