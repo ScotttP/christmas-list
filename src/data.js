@@ -2,7 +2,7 @@ import uniqid from "uniqid";
 const giftIdeas = [
 	{
 		id: uniqid(),
-		name: "playstation",
+		name: "Playstation",
 		price: "$500",
 		notes: "Don't have to buy the whole console. Willing to split the cost",
 		link:
@@ -12,35 +12,36 @@ const giftIdeas = [
 	},
 	{
 		id: uniqid(),
-		name: "PS5 Game",
+		name: "Fifa 21",
 		price: "$60",
-		notes: "",
-		link: "",
-		image: "",
+		notes:
+			"Download version or physical disc. If download, needs to be on my account",
+		link:
+			"https://www.gamestop.com/video-games/playstation-4/games/products/fifa-21/217092.html?gclid=Cj0KCQjwlvT8BRDeARIsAACRFiXY-dfdDwtpghjoFvQkHaXWO3S-1gWbHcHndf7DFD4XE4lm-yN1S68aAoo8EALw_wcB&gclsrc=aw.ds",
+		image:
+			"https://media.gamestop.com/i/gamestop/11102805/FIFA-21?$pdp$&bg=rgb(0,0,0)",
 	},
 	{
 		id: uniqid(),
-		name: "PS5 Game",
+		name: "MLB The Show",
 		price: "$60",
-		notes: "",
-		link: "",
-		image: "",
+		notes:
+			"Download version or physical disc. If download, needs to be on my account",
+		link:
+			"https://store.playstation.com/en-us/product/UP9000-CUSA17357_00-MLBTHESHOW20STND",
+		image:
+			"https://upload.wikimedia.org/wikipedia/en/b/bd/MLB_The_Show_20_cover.jpg",
 	},
 	{
 		id: uniqid(),
-		name: "PS5 Game",
+		name: "Call of Duty",
 		price: "$60",
-		notes: "",
-		link: "",
-		image: "",
-	},
-	{
-		id: uniqid(),
-		name: "PS5 Game",
-		price: "$60",
-		notes: "",
-		link: "",
-		image: "",
+		notes:
+			"Download version or physical disc. If download, needs to be on my account",
+		link:
+			"https://www.gamestop.com/video-games/playstation-4/games/products/call-of-duty-black-ops-cold-war/217643.html?gclid=Cj0KCQjwlvT8BRDeARIsAACRFiX7d7FPYrVgNP7q6_GiUytNKAuZI5rSb386od-fNwA4sxeVHAj1EMAaAmecEALw_wcB&gclsrc=aw.ds",
+		image:
+			"https://media.gamestop.com/i/gamestop/11103152/Call-of-Duty-Black-Ops-Cold-War?$pdp$&bg=rgb(0,0,0)",
 	},
 	{
 		id: uniqid(),
@@ -56,8 +57,59 @@ const giftIdeas = [
 		name: "Golf Practice Alignment Sticks",
 		price: "$20",
 		notes: "Need to look into the ones I need specifically",
+		link:
+			"https://www.dickssportinggoods.com/p/maxfli-collapsible-alignment-sticks-ss14mxflclpsalgn/ss14mxflclpsalgn?sku=14651948&camp=CSE:DSG_92700048881906592_lia_aud-1040333680752:pla-890579439277&segment=&gclid=Cj0KCQjwlvT8BRDeARIsAACRFiU9EJK9Km-UGrqWd6rd5y1FvXsWXVK-C6rYwqD5TJ6ujE8vIPsa2l8aAvSVEALw_wcB&gclsrc=aw.ds",
+		image:
+			"https://dks.scene7.com/is/image/GolfGalaxy/SS14MXFLCLPSALGN?qlt=70&wid=1100&fmt=webp",
+	},
+	{
+		id: uniqid(),
+		name: "ToolBox",
+		price: "$50",
+		notes:
+			"Ask Dad about a good toolbox that I has most of the tools I would need",
 		link: "",
-		image: "",
+		image:
+			"https://shop.harborfreight.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/9/7/97532_I.jpg",
+	},
+	{
+		id: uniqid(),
+		name: "Oil Filter Wrench Cap",
+		price: "$25",
+		notes: "Ask Dad, he knows what I'm talking about",
+		link: "",
+		image:
+			"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlT8UVh6wPXdLVP7El6lyS9xteqmi7UgDR4HdlVydH4x5-f247Qts&usqp=CAc",
+	},
+	{
+		id: uniqid(),
+		name: "Levi Black Skinny Jeans",
+		price: "$80",
+		notes: "31 or 32 waist and 32 length",
+		link:
+			"https://www.levi.com/US/en_US/apparel/clothing/bottoms/510-skinny-fit-mens-jeans/p/055100414",
+		image:
+			"https://lsco.scene7.com/is/image/lsco/levis/clothing/055100414-alt1-pdp.jpg?fmt=jpeg&qlt=70,1&op_sharpen=0&resMode=sharp2&op_usm=0.8,1,10,0&fit=crop,0&wid=945&hei=1260",
+	},
+	{
+		id: uniqid(),
+		name: "Patagonia Baggies",
+		price: "$55",
+		notes: "Size Medium",
+		link:
+			"https://www.patagonia.com/product/mens-baggies-shorts-5-inch/190696742084.html?utm_source=google&utm_medium=cpc&utm_content=shopping&utm_campaign=shopping&utm_source=google&utm_medium=cpc&utm_campaign=Shopping%20-%20M%27s%20Sportswear&gclid=Cj0KCQjwxNT8BRD9ARIsAJ8S5xanLe9ew8rIwzn-PyPluo_E5DB4N2FovFjdKIt_U3p3WIPiwgCLCmgaAvGbEALw_wcB",
+		image:
+			"https://www.patagonia.com/dw/image/v2/BDJB_PRD/on/demandware.static/-/Sites-patagonia-master/default/dw98da1988/images/hi-res/57021_BLK.jpg?sw=1600&sh=1600&sfrm=png&q=80&bgcolor=f6f6f6",
+	},
+	{
+		id: uniqid(),
+		name: "Workout Shorts",
+		price: "$35",
+		notes: "Size Medium. 2 pack Black and Navy",
+		link:
+			"https://www.amazon.com/dp/B07SPJYYJV/ref=sspa_dk_detail_4?pd_rd_i=B07G2D366W&pd_rd_w=vznbO&pf_rd_p=f0355a48-7e73-489a-9590-564e12837b93&pd_rd_wg=Dj5rC&pf_rd_r=KQKV54252JE46JD6CYDQ&pd_rd_r=227902df-a3f4-4f4f-82d6-7c0dabb659f5&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyT01YQjNKSEFGWkEzJmVuY3J5cHRlZElkPUEwNDk1ODc3STJENjU4QzBLVCZlbmNyeXB0ZWRBZElkPUEwMDU4MTUzMzg3TENORlBOVzdLNiZ3aWRnZXROYW1lPXNwX2RldGFpbF90aGVtYXRpYyZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU&th=1&psc=1",
+		image:
+			"https://images-na.ssl-images-amazon.com/images/I/61hjs9vuocL._AC_SX679._SX._UX._SY._UY_.jpg",
 	},
 ];
 
