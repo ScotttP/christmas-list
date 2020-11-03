@@ -3,6 +3,7 @@ import React from "react";
 export default function GiftsCard(props) {
 	return (
 		<div className="giftCards" id={props.gifts[props.index].name + "-Card"}>
+			<p>This is a test</p>
 			<img
 				className="giftImage"
 				id={"imageFor" + props.gifts[props.index].name}
