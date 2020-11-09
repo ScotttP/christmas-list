@@ -45,12 +45,13 @@ const giftIdeas = [
 	},
 	{
 		id: uniqid(),
-		name: "Golf Shaft",
-		price: "$100",
+		name: "Golf Galaxy Gift Card",
+		price: "Up To You!",
 		notes:
 			"Need to get with Golf Galaxy to find out what shaft goes well with my driver head",
-		link: "",
-		image: "",
+		link: "https://www.golfgalaxy.com/s/gift-cards",
+		image:
+			"https://s7d2.scene7.com/is/image/dksfed/GG3352_SCP_GiftCards_giftcard",
 	},
 	{
 		id: uniqid(),
@@ -90,6 +91,17 @@ const giftIdeas = [
 			"https://www.levi.com/US/en_US/apparel/clothing/bottoms/510-skinny-fit-mens-jeans/p/055100414",
 		image:
 			"https://slimages.macys.com/is/image/MCY/products/0/optimized/15106940_fpx.tif?op_sharpen=1&wid=1230&hei=1500&fit=fit,1&$filterxlrg$",
+	},
+	{
+		id: uniqid(),
+		name: "Ray-Ban Sunglasses",
+		price: "$204",
+		notes:
+			"Round metal classic style. Shiny Gold, Black Gradient, Polarized lenses",
+		link:
+			"https://www.ray-ban.com/usa/sunglasses/RB3447%20MALE%20001-round%20metal%20classic-shiny%20gold/8056597365093?category_Id=1725893",
+		image:
+			"https://assets.ray-ban.com/is/image/RayBan/8056597365093_shad_qt?$594$",
 	},
 	{
 		id: uniqid(),
